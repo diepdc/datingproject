@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D0BEA1</color>
+    <color name="colorPrimaryDark">#D0BEA1</color>
+    <color name="colorAccent">#D0BEA1</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Tabs -->
+    <color name="tabs_gray_default">#3B2715</color>
+    <color name="tabs_gray_focus">#3B2715</color>
+    <color name="tabs_color_active">#644B36</color>
+    <color name="tabs_color_deactive">#d1cbb9</color>
+    <color name="image_background">#908067</color>
+
+    <color name="background">#644B36</color>
+    <color name="toolbar_color">#D0BEA1</color>
+    <color name="send_to_color">#D0BEA1</color>
+
+    <color name="feed_btn1">#DF8768</color>
+    <color name="feed_btn2">#DF689F</color>
+    <color name="feed_btn3">#4F3D2C</color>
+
+    <color name="messages_background">#E0E5EB</color>
+    <color name="messages_button_bg">#A5AAAE</color>
+
+    <!-- settings color -->
+    <color name="header_color">#EFE8DE</color>
+    <color name="right_arrow_color">#C2C2C2</color>
+
+    <!-- search dialog color -->
+    <color name="search_bottom_bg_color">#EFE8DE</color>
+</resources>

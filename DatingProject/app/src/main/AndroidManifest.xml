@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hoang.datingproject" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".Utilities.DatingApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/admin"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar" >
+        <activity android:name=".Activity.SplashScreenActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="6bf7947b0c3ab40b5e1551fd6d25a2a0b0ceecd8" />
+
+        <activity android:name=".Activity.MainActivity" >
+        </activity>
+        <activity android:name=".Activity.WrittingNoteActivity" >
+        </activity>
+        <activity
+            android:name=".Activity.UserProfileActivity"
+            android:label="@string/title_activity_user_profile"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name=".Activity.MessagesActivity" >
+        </activity>
+        <activity android:name=".Activity.SettingsActivity" >
+        </activity>
+        <activity
+            android:name=".Activity.ImageViewActivity"
+            android:theme="@android:style/Theme.Holo.Light.Dialog.NoActionBar" >
+        </activity>
+        <activity android:name=".Activity.PersonalInfoActivity" >
+        </activity>
+        <activity android:name=".Activity.FeedbackActivity" >
+        </activity>
+        <activity android:name=".Activity.NewNoteActivity" >
+        </activity>
+
+        <service
+            android:name=".Utilities.NotificationListener"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+    </application>
+
+</manifest>

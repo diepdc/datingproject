@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"
+    android:layout_marginRight="100dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="5dp">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="60dp" android:layout_height="60dp"
+        android:id="@+id/avatar_item"
+        android:layout_gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/avatar"
+        android:clickable="true"
+        android:layout_margin="2dp"/>
+
+    <RelativeLayout
+        android:layout_toRightOf="@+id/avatar_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/content_container"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_centerVertical="true"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/inbox_item_background">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:id="@+id/inbox_content"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/content_container"
+        android:id="@+id/inbox_time"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/messages_background"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

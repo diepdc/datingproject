@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">Dating App</string>
+    <string name="feed_text">This is Feed Fragment</string>
+    <string name="friend_text">This is Friend Fragment</string>
+    <string name="message_text">This is Message Fragment</string>
+    <string name="dating_text">This is Dating Fragment</string>
+
+    <string name="feeds_icon">&#xf004;</string>
+    <string name="friends_icon">&#xf140;</string>
+    <string name="messages_icon">&#xf086;</string>
+    <string name="datings_icon">&#xf0f3;</string>
+    <string name="emotion_icon">&#xf118;</string>
+    <string name="btn1_icon">&#xf112;</string>
+    <string name="btn3_icon">&#xf071;</string>
+    <string name="trash_icon">&#xf014;</string>
+    <string name="settings_icon">&#xf013;</string>
+    <string name="edit_icon">&#xf044;</string>
+    <string name="plus_icon">&#xf002;</string>
+    <string name="activity_log">&#xf03a;</string>
+    <string name="user">&#xf007;</string>
+    <string name="camera">&#xf030;</string>
+    <string name="more_over">&#xf142;</string>
+    <string name="exit_icon">&#xf00d;</string>
+    <string name="delete_post_icon">&#xf171;</string>
+    <string name="ban_icon">&#xf05e;</string>
+    <string name="left_arrow_icon">&#xf053;</string>
+    <string name="right_arrow_icon">&#xf054;</string>
+    <string name="status">&#xf040;</string>
+    <string name="music">&#xf001;</string>
+    <string name="map_icon">&#xf041;</string>
+
+    <string name="button2_label">トークする</string>
+    <string name="button1_label">返信する</string>
+    <string name="button3_label">通報</string>
+
+    <string name="feed_label">ホーム</string>
+    <string name="friend_label">探す</string>
+    <string name="messages_label">ト一ク一覧</string>
+    <string name="dating_label">通知</string>
+    <string name="last_label">プロフィール</string>\
+    <string name="write_not_dialog_label">投槁</string>
+
+    <string name="dating_button1">お知らせ</string>
+    <string name="dating_button2">尼あと</string>
+    <string name="messages_edit">編集</string>
+    <string name="write_note_dialog_post">送信</string>
+    <string name="messages_title">ゆう</string>
+
+    <string name="delete_post">削際</string>
+
+    <string name="title_activity_user_profile">UserProfileActivity</string>
+
+    <!-- settings activity -->
+    <string name="settings_title">設定</string>
+    <string name="settings_item1">アカウント</string>
+    <string name="settings_item2">プロフイール 設定</string>
+    <string name="settings_item3">インフォメーシヨン</string>
+    <string name="settings_item4">Google Play でレビューする</string>
+    <string name="settings_item5">出会いチャットを才ススメする</string>
+    <string name="settings_item6">利用規約</string>
+    <string name="settings_item7">プライバシーポリシー</string>
+    <string name="settings_item8">お問い合わせ</string>
+    <string name="settings_item9">アカウント削除</string>
+
+    <!-- Personal Information-->
+    <string name="personal_info_title">プロフイール</string>
+    <string name="personal_info_save">保存</string>
+    <string name="personal_info_item1">情報</string>
+    <string name="personal_info_item2">プロフイール画像</string>
+    <string name="personal_info_item3">ニックネーム</string>
+    <string name="personal_info_item4">ユウイチ</string>
+    <string name="personal_info_item5">性別</string>
+    <string name="personal_info_item6">男性</string>
+    <string name="personal_info_item7">女性</string>
+    <string name="personal_info_item8">末設定</string>
+    <string name="personal_info_item9">年齢</string>
+    <string name="personal_info_item10">場所</string>
+    <string name="personal_info_item11">海外</string>
+    <string name="personal_info_item12">自己紹介</string>
+    <string name="personal_info_item13"></string>
+
+    <!-- Feedback Activity -->
+    <string name="feedback_send">送信</string>
+    <string name="feedback_title">お問い合わせ</string>
+    <string name="feedback_item1">トピック</string>
+    <string name="feedback_item2">質問</string>
+    <string name="feedback_item3">詳細を入力してください</string>
+    <string name="feedback_item4">動作環境</string>
+    <string name="feedback_item5">端末</string>
+    <string name="feedback_item6">アプリ名</string>
+    <string name="feedback_item7">出会いチャット</string>
+    <string name="feedback_item8">バーヅヨン</string>
+
+    <!-- Advert -->
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <!-- Search Account Dialog -->
+    <string name="search_dialog_title">ユーザー検索</string>
+    <string name="search_dialog_gender">性別</string>
+    <string name="search_dialog_item1">近くのユーザーを表示</string>
+    <string name="search_dialog_item2">年齢</string>
+    <string name="search_dialog_item3">設定しない</string>
+    <string name="search_dialog_button">検索</string>
+
+    <string name="demo_min_label"></string>
+    <string name="demo_max_label"></string>
+</resources>

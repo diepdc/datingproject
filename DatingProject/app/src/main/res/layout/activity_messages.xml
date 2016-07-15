@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hoang.datingproject.Activity.MessagesActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/toolbar_color"
+        android:id="@+id/container">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginLeft="15dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/back_button"
+            android:clickable="true"
+            android:text="@string/left_arrow_icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/messages_title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"
+            android:textColor="@color/background"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:id="@+id/ban_button"
+            android:textStyle="bold"
+            android:enabled="false"
+            android:textColor="@color/background"
+            android:layout_centerVertical="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginRight="10dp"
+            android:text="@string/ban_icon"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/container"
+        android:background="@color/background"
+        android:layout_above="@+id/bottom_container">
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/background"
+            android:padding="5dp"
+            android:id="@+id/recyclerView">
+        </android.support.v7.widget.RecyclerView>
+
+        <FrameLayout
+            android:id="@+id/emotion_fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentBottom="true">
+        </FrameLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bottom_container"
+        android:background="@color/messages_background">
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="@string/camera"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/message_camera"
+            android:textColor="@color/messages_button_bg"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="2dp"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="@string/emotion_icon"
+            android:layout_toRightOf="@+id/message_camera"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/message_emotion"
+            android:textColor="@color/messages_button_bg"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/message_button"
+            android:layout_toRightOf="@+id/message_emotion"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/message_edittext"
+            android:background="@drawable/messages_edittext_bg"
+            android:layout_centerVertical="true"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:id="@+id/message_button"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/messages_background"
+            android:text="@string/write_note_dialog_post"
+            android:background="@drawable/message_button_bg"
+            android:layout_alignParentRight="true">
+        </Button>
+    </RelativeLayout>
+</RelativeLayout>
